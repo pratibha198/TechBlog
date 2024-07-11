@@ -27,7 +27,7 @@ function App() {
       <div className='w-full block'>
         <Header />
         <main>
-        TECH UPDATES  <Outlet />
+        Your Gateway To The Tech Universe...  <Outlet />
         </main>
         <Footer />
       </div>
