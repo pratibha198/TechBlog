@@ -1,0 +1,14 @@
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 325px;
+    /* height: 310px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.12);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
